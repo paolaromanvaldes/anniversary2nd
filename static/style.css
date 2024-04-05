@@ -1,0 +1,148 @@
+html {
+    background-image: url("./background.jpg");
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: beige;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+}
+
+header h3 {
+    margin-left: 10px;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 25px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.content-wrapper {
+    overflow: hidden; 
+    background-color: beige;
+    margin-top: 45px;
+}
+.hwm {
+    font-size: 1.75rem;
+    background-color: beige;
+}
+
+.hwm h2{
+    text-align: center;
+}
+
+.story {
+    float:inline-start;
+    width: 75%; 
+    padding: 25px;
+}
+
+.hwm img {
+    float: right;
+    margin-left: 10px; /* Add some space between image and text */
+    width: 150px;
+    padding-top: 60px;
+    padding-right: 15px;
+    padding-left: 45px;
+}
+
+.mfm {
+    clear: both; /* Clear floats */
+    background-color: beige;
+}
+
+.mfm h2{
+    text-align: center;
+    padding: 20px;
+}
+.grid-container {
+    display: grid; /* Change display property to grid */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the column width as needed */
+    grid-gap: 10px; /* Adjust the gap between grid items */
+    padding: 10px;
+}
+
+.grid-item {
+    text-align: center;
+    width: 100%; 
+    max-width: 200px; /* Set maximum width for grid items */
+    margin-bottom: 20px;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-item p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+.mfm p{
+    padding: 15px;
+    
+}
+.image_applique {
+    max-height: 500px;
+    padding: 25px;
+    background-color: beige;
+    margin: 0 auto; /* Center the element horizontally */
+    width: 100%; /* Adjust width as needed */
+}
+
+.image_applique img {
+    display: flex;
+    max-height: 500px;
+    padding: 25px;
+    margin: 0 auto; /* Center the element horizontally */
+    width: 80%; /* Adjust width as needed */
+}
+
+.wilay{
+    background-color: beige;
+    padding: 25px;
+    margin: 25px;
+}
+.wilay h2{
+    text-align: center;
+}
+
+.bq{
+    background-color: beige;
+    padding: 25px;
+    margin: 25px;
+}
+.bq h2{
+    text-align: center;
+}
+footer{
+    background-color: beige;
+}
+@media screen and (max-width: 1100px) {
+    .cow, .penguin {
+        display: none;
+    }
+    .story{
+    width: 90%;
+    text-align: center;
+    float:center;
+    padding: 30px;}
+}
